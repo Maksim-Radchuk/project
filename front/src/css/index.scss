@@ -1,0 +1,38 @@
+@import './reset';
+@import './header';
+@import './main';
+@import './footer';
+@import './auth';
+@import './basket';
+@import './contacts';
+@import './delivery';
+@import './new';
+@import './accessories';
+@import './related';
+@import './distillers';
+@import './device-item';
+@import './device-list';
+@import './device-page';
+@import './admin';
+
+
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@400;600&display=swap');
+
+
+@font-face {
+	font-family: 'mr_akronimg';
+	src: url('../fonts/mr_akronimg.eot');
+	src: url('../fonts/mr_akronimg.woff') format('woff'), url('../fonts/mr_akronimg.ttf') format('truetype'), url('../fonts/mr_akronimg.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+};
+
+body {
+    position: relative;
+}
+
+.container {
+    width: 75rem;
+    margin: 0 auto;
+    z-index: 1;
+}

@@ -1,0 +1,48 @@
+.device-page {
+    display: flex;
+    padding: 5rem 0 10rem;
+    background-color:#edeef3;
+    font-family: 'Alegreya', serif;
+    font-size: 18px;
+    width: 100%;
+    height: 100%;
+    font-weight: 600;
+    .device {
+        display: flex;
+        flex-direction: row;
+        .device-img {
+            height: 70%;
+            width: 70%;
+        }
+        .container-device {
+            display: flex;
+            flex-direction: column;
+            margin-left: 10rem;
+            width: 100%;
+            .price {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                width: 40%;
+                margin: 1rem 0;
+                padding: 1rem 0;
+                border: 1px solid #edeef3;
+                box-shadow: 0px 0px 5px black;
+                border-radius: 1rem;
+                a {
+                    filter: drop-shadow(0px 0px 1px black);
+                    padding: 0 1rem;
+                    &:hover {
+                        filter: drop-shadow(0px 0px 3px black);
+                    }
+                    .shadow {
+                        width: 40px;
+                    }
+                }
+            }
+            h3 {
+                margin: 1rem 0;
+            }
+        }
+    }
+}
